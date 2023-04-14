@@ -1,10 +1,12 @@
+package kz.sergeev.writer.log;
+
 import java.io.IOException;
 
 public class Main {
 
     public static void main(String[] args) {
         if (args.length < 1) {
-            System.err.println("Usage: java LogFileWriter <log-file-name>");
+            System.err.println("Usage: java main.java.kz.sergeev.writer.log.LogFileWriter <log-file-name>");
             System.exit(1);
         }
 

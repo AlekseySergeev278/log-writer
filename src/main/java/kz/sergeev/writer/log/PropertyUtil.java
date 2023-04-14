@@ -1,3 +1,5 @@
+package kz.sergeev.writer.log;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
